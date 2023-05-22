@@ -52,17 +52,19 @@ body {
     justify-content: center;
     padding: 90px;
   }
-
   .first-container{
+    /* Makes space between img and header*/
     flex-basis: 400px;
+
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-right: 50px;
   }
+ 
   .first-img img{
-    width: 700px;
-    height: 550px;
+    width: 600px;
+    height: 450px;
 
   }
 
@@ -90,6 +92,37 @@ body {
     border: none;
     padding: 10px;
     border-radius: 10px;
+ }
 
-    
+ /* Projects showcase */
+.second-container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+ .info{
+    max-width: 200px;
+ }
+ .info img{
+    width: 100px;
+    height: 100px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+ }
+
+ /* Quote */
+ .hero{
+ background-color: #E5E7EB;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 90px;
+ flex-direction: column;
+ }
+
+ .quote{
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
  }
